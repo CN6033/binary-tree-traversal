@@ -16,6 +16,9 @@ int main() {
     return 0;
 }
 
+/**
+ * Breadth-first search
+ */ 
 void binaryTreeTraversal(std::shared_ptr<BinaryTree> root) {
     queue<shared_ptr<BinaryTree>> q;
 
